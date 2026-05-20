@@ -1,11 +1,2 @@
-fastapi
-uvicorn
-pydantic
-langchain-core
-langchain-huggingface
-langchain-community
-langchain-text-splitters
-groq
-PyMuPDF
-faiss-cpu
-sentence-transformers
+streamlit
+requests
