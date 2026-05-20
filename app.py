@@ -10,11 +10,8 @@ st.set_page_config(
 
 st.title("🤖 AI Document Chatbot")
 
-st.sidebar.header("Settings")
-backend_url = st.sidebar.text_input(
-    "Backend URL",
-    os.environ.get("BACKEND_URL", "https://ruchit529-rag-backend.hf.space")
-)
+
+backend_url = os.environ.get("BACKEND_URL")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
